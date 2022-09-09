@@ -1,4 +1,3 @@
-#!/bin/bash
 #includeb <stdio.h>
 /**
 * prints
