@@ -1,14 +1,14 @@
 #include <stdio.h>
 {
-	printf("Size of a char: %i byte(s)\n",
+printf("Size of a char: %i byte(s)\n",
 			sizeof(char));
 printf("Size of an int: %i byte(s)\n",
-		sizeof(int));
+sizeof(int));
 printf("Size of a long: %i byte(s)\n",
-		sizeof(long int));
+sizeof(long int));
 printf("Size of a ong long int: %i byte(s)\n",
-		sizeof(long long int));
+sizeof(long long int));
 printf("Size of a float:%i byte(s)\n",
-		sizeof(float));
-return(0)
+sizeof(float));
+return (0)
 }
