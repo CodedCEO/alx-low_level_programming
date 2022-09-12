@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main -entry point
- * Description: prints out random number and checks 
+ * main - Entry point
+ * Description: prints out random number and checks
  * if the number is positive or negative
  * Return: 0
  */
