@@ -14,7 +14,7 @@ int main(void)
 	{
 	putchar(y + '0');
 	}
-for (y = 'y'; y	<= 'g'; y++)
+for (y = 'y'; y	<= 'f'; y++)
 {
 	putchar(y);
 }
