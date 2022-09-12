@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main _ Entry point
+ * main - Entry point
  * Description: A program that prints all possible combinations
  * of a two digit number.
  * Return: 0
@@ -19,7 +19,7 @@ int main(void)
 				putchar(a + '0');
 				putchar(b + '0');
 
-				if (a != 8 || ( a == 8 && b != 9))
+				if (a != 8 || (a == 8 && b != 9))
 				{
 					putchar(',');
 					putchar(' ');
