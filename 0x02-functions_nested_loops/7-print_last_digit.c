@@ -4,7 +4,7 @@
  * print_last_digit - print last digit of a number
  * @n: the integer that is to be worked on.
  *
- * Description: This function takes 'n' as an argument and then returns the last digit.
+ * Description: This function tks 'n' and then returns the last digit.
  * Return: last digit of 'n'
  */
 
