@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
- *
  * times_table - prints 9x9 times table
  *
  * Description: This function will create a 9x9 times table
