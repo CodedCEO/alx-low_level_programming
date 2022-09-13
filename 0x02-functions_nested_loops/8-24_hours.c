@@ -34,6 +34,7 @@ void jack_bauer(void)
 					num4++;
 
 				}
+
 				num3++;
 
 			}
