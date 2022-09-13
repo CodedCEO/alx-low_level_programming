@@ -10,7 +10,7 @@
  * 0 (if c is not a lower case)
  */
 
-int _islower(int c)
+int _islower(c)
 {
 	if (c >= 97 && c <= 122)
 	{
