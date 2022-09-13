@@ -16,13 +16,11 @@ void times_table(void)
 {
 	int i, j;
 	for (i = 0; i <= 9; i++)
-
 	{
 		for (j = 0; j <= 9; j++)
 		{
 			int temp = i * j;
 			if (temp / 10)
-
 			{
 				int num1;
 				int num2;
