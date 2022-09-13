@@ -5,7 +5,7 @@
  * @n: Integer number to be evaluated
  *
  * Description: This function takes an integer number 'n'
- * as an argument and then determines its sign of a number. prints '+' if 'i' is
+ * as an argument and then determines its sign of number prints '+' if 'i' is
  * > '0' prints '0' if 'n'== zero and '-' if 'n' is < zero.
  * Return: 1 (> 0), 0 (== 0) or -1 (< 0)
  */
