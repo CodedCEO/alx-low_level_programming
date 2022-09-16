@@ -1,6 +1,8 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+int _putchar(char c);
+void printMul(void);
 /**
  * _isupper - determines uppercase or not
  * @c: character to determine
