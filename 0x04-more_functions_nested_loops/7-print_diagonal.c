@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_diagonal - print bent line
+ * print_diagonal - print slash
  * @n: parameter
  */
 
