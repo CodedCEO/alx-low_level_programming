@@ -5,7 +5,7 @@
  *
  * Return: gives 1 or 0
  */
-int_isupper(int c)
+int _isupper(int c)
 {
 	if (c >= 'A' && c <= 'Z')
 	{
