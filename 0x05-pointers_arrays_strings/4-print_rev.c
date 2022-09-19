@@ -20,3 +20,25 @@ void print_rev(char *s)
 	}
 	_putchar('\n');
 }
+
+/**
+ * get_length - returns the length of a string
+ * @s: String whose length we want to determine
+ *
+ * Return: length of string
+ */
+int get_length(char *s)
+{
+	int length;
+	int i;
+
+	length = 0;
+	i = 0;
+	while (s[i] != '\0')
+	{
+		++length;
+		i++;
+	}
+
+	return (length);
+}
