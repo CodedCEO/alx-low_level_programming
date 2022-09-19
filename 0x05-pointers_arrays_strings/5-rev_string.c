@@ -11,18 +11,18 @@ int get_length(char *);
 void rev_string(char *s)
 {
 	int length;
-	int n;
-	int k;
+	int i;
+	int j;
 
 	length = get_length(s);
 
-	for (n = 0, k = length - 1; !(n >= k); n++, k--)
+	for (i = 0, j = length - 1; !(i >= j); i++, j--)
 	{
 		char count;
 
-		count = s[n];
-		s[n] = s[k];
-		s[k] = count;
+		count = s[i];
+		s[i] = s[j];
+		s[j] = count;
 	}
 }
 
@@ -35,14 +35,14 @@ void rev_string(char *s)
 int get_length(char *s)
 {
 	int length;
-	int n;
+	int i;
 
 	length = 0;
-	n = 0;
-	while (s[n] != '\0')
+	i = 0;
+	while (s[i] != '\0')
 	{
 		++length;
-		n++;
+		i++;
 	}
 	return (length);
 }
