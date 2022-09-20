@@ -11,52 +11,14 @@ int get_length(char *);
 */
 void puts_half(char *str)
 {
-	int n;
-	int length;
-	int start;
+	int i, x, y;
 
-	length = get_length(str);
-	if (length % 2 != 0)
-	{
-		n = (length - 1) / 2;
-		start = length - n;
-		while (str[start] != '\0')
-		{
-			_putchar(str[start]);
-			start++;
-		}
-	}
+	x = strlen(str);
+	if (x % 2 == 1)
+		y = (x / 2) + 1;
 	else
-	{
-		n = length / 2;
-		start = length - n;
-		while (str[start] != '\0')
-		{
-			_putchar(str[start]);
-			start++;
-		}
-	}
+		y = x / 2;
+	for (i = y; i < x; i++)
+		_putchar(str[i]);
 	_putchar('\n');
-}
-
-/**
- * get_length: determines the length of strings
- * @str - stringwhose lengths are to be determined
- *
- * Return - length
- */
-int get_length(char *s)
-{
-	int length;
-	int i;
-
-	i = 0;
-	length = 0;
-	while (str[i] != '\0')
-	{
-		++length;
-		i++;
-	}
-
-	return (length);
 }
