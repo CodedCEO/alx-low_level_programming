@@ -38,3 +38,25 @@ void puts_half(char *str)
 	}
 	_putchar('\n');
 }
+
+/**
+ * get_length: determines the length of strings
+ * @str - stringwhose lengths are to be determined
+ *
+ * Return - length
+ */
+int get_length(char *s)
+{
+	int length;
+	int i;
+
+	i = 0;
+	length = 0;
+	while (str[i] != '\0')
+	{
+		++length;
+		i++;
+	}
+
+	return (length);
+}
